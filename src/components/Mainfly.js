@@ -12,19 +12,22 @@ const Mainfly = () => (
     <img src={calimg} alt="Octubre 23" ></img>
     <Link to="/reserve" className="btn btn-primary my-2">Reservar</Link>
   </div>
-  <p className="container">
-    Sluttiween es una fiesta de Halloween LGBTQ+ donde tendrás que venir con el mejor puti-disfraz que encuentres (entre mas slutty, mejor).
-    La entrada es libre para cualquier persona LGBTQ+ con puti disfraz y heteros acompañados (con puti disfraz), y puedes traer tu propio alcohol
+  <p className="container red my-0 py-2">
+    Sluttiween es una fiesta de Halloween LGBTQ+, tendrás que venir con el mejor puti-disfraz que encuentres (entre mas slutty, mejor).
   </p>
-  <p className="container">
+  <p className="container orange my-0 py-2">
+    La entrada es libre para personas LGBTQ+ con puti disfraz, y heteres deconstruides acompañados
+  </p>
+  <p className="container yellow my-0 py-2">
     Todes sabemos que no hay mejor excusa para putear que Halloween . Confirma tu asistencia en el botón de reservar para poder entrar.
   </p>
-  <ul className="container">
+  <ul className="container green my-0 py-2">
    <li className="text-center">**GRATIS**</li>
-   <li>** SOLO CHIQUES MAYORES DE 18 </li>
+   <li>** Trae tu alcohol</li>
    <li>** Cero personas violentas</li>
    <li>** Solo personas LGBTQ+ friendly</li>
    <li>** Estacionamiento en la calle de atrás</li>
+   <li>** SOLO CHIQUES MAYORES DE 18 </li>
   </ul>
   <p className="fs-1 text-center">Ubicación</p>
   <div className="d-flex flex-column align-items-center justify-content-center">
