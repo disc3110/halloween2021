@@ -17,7 +17,7 @@ const Mainfly = () => (
     La entrada es libre para cualquier persona LGBTQ+ con puti disfraz y heteros acompañados (con puti disfraz), y puedes traer tu propio alcohol
   </p>
   <p className="container">
-    Todes sabemos que no hay mejor ecusa para putear que Halloween . Confirma tu asistencia en el botón de reservar para poder entrar.
+    Todes sabemos que no hay mejor excusa para putear que Halloween . Confirma tu asistencia en el botón de reservar para poder entrar.
   </p>
   <ul className="container">
    <li className="text-center">**GRATIS**</li>
