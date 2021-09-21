@@ -1,4 +1,4 @@
-import diego from '../assets/0EF52285-BBB8-4660-9845-86A3A7814B56.JPEG'
+import diego from '../assets/IMG_6348.jpg'
 import jorge from '../assets/IMG_6346.jpg'
 import gerardo from '../assets/IMG_6347.jpg'
 

@@ -1,4 +1,4 @@
-import rulesimg from '../assets/Da_Rules.webp'
+import rulesimg from '../assets/Da_Rules.png'
 
 const Rules = () => (
   <>
