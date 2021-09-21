@@ -7,3 +7,19 @@ body {
   background-color: black;
   color: aliceblue;
 }
+
+.imgs {
+  width: 160px;
+  height: 190px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.seventyfive-sq {
+  width: 90px ;
+  height: 120px ;
+  border-radius: 5px;
+}
