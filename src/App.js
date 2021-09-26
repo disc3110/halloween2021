@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import Reserve from "./pages/Reserve";
 import Contact from "./pages/Contact";
 import Rules from "./pages/Rules";
+import Invitees from "./pages/Invitees";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/rules">
           <Rules />
+        </Route>
+        <Route path="/311043590">
+          <Invitees />
         </Route>
         <Route path="/">
           <Homepage />

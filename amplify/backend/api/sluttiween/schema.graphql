@@ -1,0 +1,6 @@
+type Invitado @model {
+  id: ID!
+  name: String!
+  contact: String
+  people: Int
+}

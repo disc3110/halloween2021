@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom"
 import whiteLogo from '../assets/Sluttiween-white-logo.png'
 
-const Header = () => {
-  const x = '1'
-  return (
+const Header = () => (
     <>
       <ul className="nav nav-tabs d-flex justify-content-between p-2">
   <li className="nav-item">
@@ -21,7 +19,6 @@ const Header = () => {
   </li>
 </ul>
     </>
-  )
-};
+  );
 
 export default Header

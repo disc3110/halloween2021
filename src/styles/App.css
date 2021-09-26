@@ -5,9 +5,10 @@
 }
 body {
   background-color: black;
-  color: aliceblue;
+  color: rgba(106, 222, 0, .9);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.3rem;
+  font-weight: bolder;
 }
 
 .imgs {
@@ -26,26 +27,31 @@ li {
   border-radius: 5px;
 }
 
+.setimage {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .red {
-  background-image: linear-gradient(to right, rgba(228, 26, 26, .7) , rgba(104, 40, 26, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(228, 26, 26, .7) , rgba(104, 40, 26, 0.7));
 }
 
 .orange {
-  background-image: linear-gradient(to right, rgba(240, 117, 51, .7) , rgba(103, 64, 5, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(240, 117, 51, .7) , rgba(103, 64, 5, 0.7));
 }
 
 .yellow {
-  background-image: linear-gradient(to right, rgba(235, 222, 81, .7) , rgba(136, 126, 9, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(235, 222, 81, .7) , rgba(136, 126, 9, 0.7));
 }
 
 .green {
-  background-image: linear-gradient(to right, rgba(19, 167, 36, .7) , rgba(42, 80, 8, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(19, 167, 36, .7) , rgba(42, 80, 8, 0.7));
 }
 
 .blue {
-  background-image: linear-gradient(to right, rgba(7, 50, 114, 0.7) , rgba(4, 42, 75, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(7, 50, 114, 0.7) , rgba(4, 42, 75, 0.7));
 }
 
 .purple {
-  background-image: linear-gradient(to right, rgba(167, 26, 228, .7) , rgba(69, 4, 75, 0.7));
+  background-image: linear-gradient(to bottom right, rgba(167, 26, 228, .7) , rgba(69, 4, 75, 0.7));
 }
