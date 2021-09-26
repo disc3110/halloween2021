@@ -1,15 +1,25 @@
+import React, { useState, useEffect } from "react"
 import { API, graphqlOperation } from 'aws-amplify';
 import { listInvitados } from '../graphql/queries';
 
 const Invitees = () => {
+
+  const [invitees, setinvitees] = useState([])
+
   const getInvitees = async () => {
   const todos = await API.graphql(graphqlOperation(listInvitados));
   const confirmados = todos.data.listInvitados.items
-  console.log(confirmados)
+  setinvitees(confirmados)
 }
 
+useEffect(() => {
+  if (invitees.length === 0){
+    getInvitees()
+  }
+})
+
  const renderInvitees = (invitadosConf) => invitadosConf.map((invitee) => (
-   <tr>
+   <tr key={Math.random()}>
      <th scope="col">{invitee.name}</th>
      <th scope="col">{invitee.contact}</th>
      <th scope="col">{invitee.people}</th>
@@ -26,7 +36,7 @@ const Invitees = () => {
         <th scope="col">People</th>
       </tr>
       </thead>
-      <tbody></tbody>
+      <tbody>{renderInvitees(invitees)}</tbody>
     </table>
   )
 }
