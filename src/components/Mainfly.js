@@ -25,7 +25,7 @@ const Mainfly = () => (
   </div>
   <div className="row">
   <p className=" setimage col container orange my-0 py-2 d-flex flex-column align-items-center justify-content-center" style={{ backgroundImage: `url(${pumk2})` }}>
-  La entrada es libre para personas LGBTQ+ con puti disfraz, y heteres deconstruides acompañados
+  La entrada es libre para personas LGBTQ+ con puti disfraz, y heterxs deconstruidxs acompañadxs
   </p>
   <div className="col py-2 d-flex flex-column align-items-center justify-content-center">
       <img  src={mapImg} alt="" className="imgs"/>
