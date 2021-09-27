@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { API, graphqlOperation } from 'aws-amplify'
 import { createInvitado } from '../graphql/mutations'
+import { Link } from "react-router-dom"
 import { v4 as uuidv4 } from "uuid"
 
 const ReserveForm = () => {
@@ -67,7 +68,7 @@ const ReserveForm = () => {
 </select>
   <div className="mb-3 form-check">
     <input type="checkbox" className="form-check-input" id="exampleCheck1" required />
-    <label className="form-check-label mx-2" htmlFor="exampleCheck1">Leí y estoy de acuerdo con las reglas</label>
+    <label className="form-check-label mx-2" htmlFor="exampleCheck1">Leí y estoy de acuerdo con las <Link to="/rules">Reglas</Link></label>
   </div>
   <button type="submit" className="btn btn-primary">Reservar</button>
 </form>}

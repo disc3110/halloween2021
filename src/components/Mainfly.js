@@ -34,7 +34,7 @@ const Mainfly = () => (
   </div>
 </div>
   
-  <div style={{ backgroundImage: `url(${siluets})` }}>
+  <div className="setimage" style={{ backgroundImage: `url(${siluets})` }}>
   <p className="container my-0 py-2">
     Todes sabemos que no hay mejor excusa para putear que Halloween . Confirma tu asistencia en el botón de reservar para poder entrar.
   </p>
@@ -48,10 +48,10 @@ const Mainfly = () => (
   </ul>
   </div>
   
-  <p className="fs-1 text-center">Ubicación</p>
+  <p className="fs-1 text-center my-3">Ubicación</p>
   <p>Retorno 804 #28 Colonia El Centinela, Coyoacán</p>
   
-  <div className="d-flex flex-column align-items-center justify-content-center">
+  <div className="d-flex flex-column align-items-center justify-content-center my-5">
     <p className="fs-1 text-center my-2"> 7:00 pm - 3:30am</p>
     <div>
      <Link to="/reserve" className="btn btn-primary m-2">Reservar</Link>

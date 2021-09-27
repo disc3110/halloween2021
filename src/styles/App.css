@@ -28,8 +28,9 @@ li {
 }
 
 .setimage {
-  background-repeat: no-repeat;
+  background-repeat:repeat-x;
   background-size: contain;
+  background-position: center;
 }
 
 .red {
