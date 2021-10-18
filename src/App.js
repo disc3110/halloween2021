@@ -6,6 +6,7 @@ import Reserve from "./pages/Reserve";
 import Contact from "./pages/Contact";
 import Rules from "./pages/Rules";
 import Invitees from "./pages/Invitees";
+import Full from "./pages/Full";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className="container">
       <Switch>
         <Route path="/reserve">
-          <Reserve />
+          <Full />
         </Route>
         <Route path="/contact">
           <Contact />
